@@ -69,3 +69,47 @@ body{
     height: 30px;
     border: none;
 }
+#userForm{
+    background-color: rgb(235, 235, 235);
+    height: 400px;
+    width: 250px;
+    padding: 10px;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -125px; 
+    margin-top: -200px; 
+    box-shadow: -9px 10px 22px #b7b7b9; } 
+form input{
+    width: 100%;
+    height: 50px;
+    border: none; 
+    background-color: rgb(230, 230, 231);
+    border-radius: 10px;}
+form {
+    padding: 30px;
+    }
+#readBtn{
+    background-color: green;
+    color: white;
+    }
+#notReadBtn{
+    background-color: red;
+    color: white;
+    }
+#readBtn , #notReadBtn{
+    width: 49%;
+    }
+#exitBtn{
+    width: 100%;
+    background-color: rgb(230, 230, 231);
+    }
+#readBtn , #notReadBtn , #exitBtn{
+    height: 30px;
+    border: none;
+    }
+#readBtn:hover , #notReadBtn:hover , #exitBtn:hover{
+    font-weight: 900;
+    transition: font-weight 0.7s ease
+    }
